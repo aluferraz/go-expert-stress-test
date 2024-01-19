@@ -8,6 +8,8 @@ goroutines em paralelo para atingir a concorrencia desejada.
 
 Para controlar que todas as requisições foram executadas, utilizo waitgroups.
 
+https://github.com/aluferraz/go-expert-stress-test/blob/e23d77786a6d4da6aac7ce4a915f5cae4b9be6c8/usecases/stresstest/stress-test.go#L32-L71
+
 ## Usage
 
 Para utilizar a ferramenta, é necessário passar três parâmetros: url, requests e concurrency.
